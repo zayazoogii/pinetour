@@ -1,0 +1,64 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    transition: all 2s ease-in 1s;
+    border-radius: 10px;
+}
+
+.box:hover{
+    width: 100px;
+    height: 40px;
+    background-color: grey;
+   
+   
+}
+.button{
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+    
+}
+.container2{
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxtwo{
+    width: 300px;
+    height: 300px;
+    border:1px dashed black; 
+    border: 1pt solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: all 2s ease-in-out 2s;
+  
+    
+
+}
+.box3:hover{
+    width: 300px;
+    height: 300px;
+}
